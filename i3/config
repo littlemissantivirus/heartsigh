@@ -10,7 +10,7 @@ set $mon2 DP-2 # This is the monitor in the center.
 set $mod3 HDMI-0 # This is the monitor to the right.
 
 # --- Auto Start --- #
-exec_always 	--no-startup-id ~/.config/i3/scripts/polybar.sh
+exec_always 	--no-startup-id ~/.config/scripts/polybar.sh
 exec		picom &
 exec		discord &
 exec 		spotify &
@@ -99,7 +99,7 @@ bindsym --release Mod1+Shift+Z exec scrot -s 'screenshot_%Y%m%d_%H%M%S.png' -e '
 #bindsym $mod+d		exec --no-startup-id dmenu_run
 #bindsym $mod+Shift+d	gaps inner current set 0; gaps outer current set 0
 
-# bindsym $mod+e          exec bash ~/.config/i3/scripts/emoji.sh
+# bindsym $mod+e          exec bash ~/.config/scripts/emoji.sh
 
 #bindsym $mod+f          exec thunar
 bindsym $mod+Shift+f    fullscreen toggle
