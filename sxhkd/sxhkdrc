@@ -27,7 +27,7 @@ mod4 + d
 	dmenu_run
 
 mod4 + e
-	bash ~/.config/i3/scripts/emoji.sh
+	bash ~/.config/scripts/emoji.sh
 
 mod4 + f
 	thunar
