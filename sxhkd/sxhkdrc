@@ -1,0 +1,45 @@
+
+# Audio binds
+XF86Audio{Prev,Next}
+	playerctl {previous,next}
+XF86Audio{Raise,Lower}Volume
+	pactl set-sink-volume 2 {+,-}5%
+XF86AudioMute
+	pactl set-sink-mute 2 toggle
+XF86AudioPause
+	pactl play-pause
+
+# Letter Binds
+mod4 + a
+	alacritty
+
+mod4 + b
+	firefox
+mod4 + shift + b
+	tor-browser
+
+mod4 + c
+	idea-ce-eap
+mod4 + shift + c
+	codium
+
+mod4 + d
+	dmenu_run
+
+mod4 + e
+	bash ~/.config/i3/scripts/emoji.sh
+
+mod4 + f
+	thunar
+
+mod4 + g
+	lutris
+
+mod4 + m
+	multimc
+mod4 + shift + m
+	vlc
+
+
+mod4 + Return
+	st
